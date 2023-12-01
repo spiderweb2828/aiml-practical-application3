@@ -28,4 +28,11 @@ Link to Jupyter Notebook can be found at https://github.com/spiderweb2828/aiml-p
 [results.txt](results.txt)
 
 ### Misclassification error for K nearest neighbor model with different values of K
-![knn-misclassification-error.png](results%2Fknn-misclassification-error.png)
+![knn-misclassification-error.png](knn-misclassification-error.png)
+
+### Confusion Matrix for K nearest neighbor model with different values of K
+![confusion-matrix.png](confusion-matrix.png)
+
+### Improving the Model:
+    -- Gender feature is not important because it does not have any impact on the outcome of the model.
+    -- We can use GridSearchCV to find the best hyperparameters for the model. Using GridSearchCV and K-neighbors classifier, we found that the optimal number of neighbors is 41. For decision tree classifier, we found that the optimal max_depth is 4. For SVM, we could not find the optimal kernel as there is not enough compute power and it is taking too much time to converge. so used the  SVM classifier with default inputs.
