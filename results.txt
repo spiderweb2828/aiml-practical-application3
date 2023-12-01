@@ -1,0 +1,5 @@
+                      Model  Train Time  Train Accuracy  Test Accuracy
+0       Logistic Regression    0.000000        0.887346       0.887346
+1        K Nearest Neighbor    0.006508        0.888964       0.885986
+2  Decision Tree Classifier    0.032231        0.887378       0.887346
+3                       SVM   11.559119        0.887346       0.887346
