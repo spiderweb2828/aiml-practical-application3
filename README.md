@@ -20,4 +20,12 @@ Link to Jupyter Notebook can be found at https://github.com/spiderweb2828/aiml-p
     4. Support Vector Classifier
 
 ### Observations:
+                          Model  Train Time  Train Accuracy  Test Accuracy
+            Logistic Regression    0.000000        0.887346       0.887346
+             K Nearest Neighbor    0.006508        0.888964       0.885986
+       Decision Tree Classifier    0.032231        0.887378       0.887346
+                            SVM   11.559119        0.887346       0.887346
 [results.txt](results.txt)
+
+### Misclassification error for K nearest neighbor model with different values of K
+![knn-misclassification-error.png](results%2Fknn-misclassification-error.png)
