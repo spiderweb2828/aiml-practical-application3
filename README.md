@@ -2,8 +2,8 @@
 
 Link to Jupyter Notebook can be found at https://github.com/spiderweb2828/aiml-practical-application3/blob/main/prompt_III.ipynb 
 
-## Data Clean up: In order to find the required data clean up, lets find the unique values of each column by executing the command data.apply(lambda col: col.unique()) on the dataframe "data"
-
+### Data Clean up: 
+    In order to find the required data clean up, lets find the unique values of each column by executing the command data.apply(lambda col: col.unique()) on the dataframe "data"
 ### Understanding the Data: 
     The data contains information about the customers of a bank. The data has 45211 rows and 17 columns. The data has 7 categorical columns and 10 numeric columns. The data has 1 target variable. The data has 0 missing values. The data has 0 nan values.   
 ### Understanding the features:
